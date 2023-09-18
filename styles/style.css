@@ -16,7 +16,11 @@ html {
 
 body {
   font-family: 'Rajdhani', sans-serif;
-  background-color: #fff;
+  background-color: #1c2042;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 /* global css */
@@ -29,23 +33,85 @@ li {
 }
 
 .container {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 20px;
+  text-align: center;
+  background-color: cyan;
+}
+
+.password {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1c2042;
+}
+
+.password>h3 {
+  padding: 5px 10px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.password>.copy {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.password>.copy>i {
+  padding: 8px;
+  font-size: 24px;
+  background-color: cyan;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+ul>li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #1c2042;
+  font-weight: 500;
+}
+
+ul>.password-length>input {
+  padding: 2px 6px;
+  width: 25%;
+}
+
+.checkbox {
+  cursor: pointer;
 }
 
 .btn {
-  display: inline-block;
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 0.5rem 1.5rem;
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
   text-transform: capitalize;
   font-size: 1.2rem;
   font-weight: 500;
   cursor: pointer;
-  /* customize */
   background-color: #1c2042;
   color: white;
   border: 2px solid #1c2042;
+  animation: pulse 0.3s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.password>.copy:active {
+  animation: pulse 0.3s;
 }
