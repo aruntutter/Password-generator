@@ -45,7 +45,7 @@ li {
   background-color: #1c2042;
 }
 
-.password>h3 {
+.password>span {
   padding: 5px 10px;
   color: #fff;
   font-weight: 500;
@@ -95,7 +95,6 @@ ul>.password-length>input {
   background-color: #1c2042;
   color: white;
   border: 2px solid #1c2042;
-  animation: pulse 0.3s;
 }
 
 @keyframes pulse {
