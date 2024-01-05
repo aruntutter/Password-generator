@@ -14,8 +14,8 @@
 
 ## Links
 
-- Solution URL: [GitHub Repository]()
-- Live Demo: [Live Demo URL]()
+- Solution URL: [GitHub Repository](https://github.com/aruntutter/Password-generator)
+- Live Demo: [Live Demo URL](https://jazzy-fudge-1c91c7.netlify.app/)
 
 ## Description
 
@@ -27,7 +27,7 @@ GuardianKey is an advanced password generator designed to create secure and cust
 
 ## Demo
 
-Explore the live demo: [Live Demo Link]()
+Explore the live demo: [Live Demo Link](https://jazzy-fudge-1c91c7.netlify.app/)
 
 ## Features
 
